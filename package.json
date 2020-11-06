@@ -38,8 +38,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "dev": "parcel <your entry file>",
-    "build": "parcel build <your entry file>"
+    "deploy:src": "parcel build src/index.html --public-url ./",
+    "deploy:final": "parcel build final/index.html --public-url ./"
   },
   "keywords": [],
   "author": "",
